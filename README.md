@@ -32,7 +32,7 @@ A simple Java console application demonstrating a bookstore management system, b
 ##### Concrete
 
 - **Ebook**  
-  Extends `Book`; implements `IEmailable` and `IPricable`. Represents a digital book delivered by email or download link.
+  Extends `Book`; implements `IEmailable` and `IPricable`. Represents a digital book delivered by email.
 
 - **PaperBook**  
   Extends `Book`; implements `IShippable`, `IStockable`, and `IPricable`. Represents a physical book shipped to the customer.
