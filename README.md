@@ -5,7 +5,7 @@ A simple Java console application demonstrating a bookstore management system, b
 
 ## Classes and features
 
-# Abstractions
+### Abstractions
 
 - **IProduct** – Marker interface
 - **Book** – Abstract class that contain all the variables and the methods that can be exsist in any other concrete class.
