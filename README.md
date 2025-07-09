@@ -7,6 +7,7 @@ A simple Java console application demonstrating a bookstore management system, b
 ---
 
 #### Model Layer
+---
 
 ##### Abstraction
 - **IProduct** – Ultra genaric interface (If we have another products in the system it can implement it)
