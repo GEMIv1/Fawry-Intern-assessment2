@@ -83,5 +83,4 @@ A simple Java console application demonstrating a bookstore management system, b
 ---
 
 ### Output
-![Alt text](https://drive.google.com/file/d/1CZSLvHxoW_SPEUgB0YPgm_DbptiGN3Os/view?usp=sharing)
-
+![Alt text](https://drive.google.com/uc?export=view&id=1CZSLvHxoW_SPEUgB0YPgm_DbptiGN3Os)
