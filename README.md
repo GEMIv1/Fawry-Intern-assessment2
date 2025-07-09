@@ -4,7 +4,6 @@ A simple Java console application demonstrating a bookstore management system, b
 ---
 
 ## Architecture
----
 
 #### Model Layer
 ---
