@@ -46,6 +46,39 @@ A simple Java console application demonstrating a bookstore management system, b
   Manages your products in memory.  
   - `add(IProduct)` — adds any product  
   - `removeOutdated(int years)` — removes all items published before (current year − years)  
-  - `findByIsbn(String)` — looks up a product by its ISBN  
+  - `findByIsbn(String)` — looks up a product by its ISBN
+---
+
+### Service Layer
+
+#### Interfaces
+
+- **IDeliveryService**  
+  Defines the contract for delivering any product to a customer.  
+  **Responsibilities:**  
+  1. Abstracts delivery logic so the store doesn’t need to know how delivery is performed  
+  2. Provides a uniform API:  
+     - `IProduct product` — the item being sent  
+     - `int quantity` — number of units  
+     - `String destination` — shipping address, email address, or other endpoint  
+  3. Enables adding new delivery methods without changing core store logic  
+
+#### Implementations
+
+- **ShippingService**  
+  Handles physical shipments:  
+  - Reads weight from `IShippable`  
+  - Calculates shipping cost  
+  - Generates shipping labels and updates stock  
+
+- **MailService**  
+  Handles digital deliveries:  
+  - Reads file type and payload from `IEmailable`  
+  - Constructs and sends email with attachments or download links  
+
+- **NoOpDeliveryService**  
+  A no‑operation stub for products that don’t require delivery (e.g. `DemoBook`):  
+  - Logs the delivery call  
+
 ---
 
