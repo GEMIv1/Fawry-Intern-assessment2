@@ -78,7 +78,10 @@ A simple Java console application demonstrating a bookstore management system, b
 
 - **NoOpDeliveryService**  
   - A place holder that does nothing, used only as a feedback for unsupported products  
-  - This service ensures graceful handling if somehow an undeliverable product is passed, avoiding a crash or null pointer 
+  - This service ensures graceful handling if somehow an undeliverable product is passed, avoiding a crash or null pointer
 
 ---
+
+### Output
+![Alt text](https://drive.google.com/file/d/1CZSLvHxoW_SPEUgB0YPgm_DbptiGN3Os/view?usp=sharing)
 
