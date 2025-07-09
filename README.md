@@ -77,8 +77,8 @@ A simple Java console application demonstrating a bookstore management system, b
   - Constructs and sends email with attachments or download links  
 
 - **NoOpDeliveryService**  
-  A no‑operation stub for products that don’t require delivery (e.g. `DemoBook`):  
-  - Logs the delivery call  
+  - A place holder that does nothing, used only as a feedback for unsupported products  
+  - This service ensures graceful handling if somehow an undeliverable product is passed, avoiding a crash or null pointer 
 
 ---
 
